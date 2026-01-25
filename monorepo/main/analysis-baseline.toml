@@ -1,0 +1,37 @@
+variant = "loose"
+
+[[issues]]
+file = "../core/test.php"
+code = "mismatched-array-index"
+message = "Invalid array key type: `string('nice')` is not a valid key for this array."
+count = 1
+
+[[issues]]
+file = "../core/test.php"
+code = "mixed-method-access"
+message = "Attempting to access a method on a non-object type (`mixed`)."
+count = 1
+
+[[issues]]
+file = "../core/test.php"
+code = "undefined-variable"
+message = "Undefined variable: `$nonExistant`."
+count = 1
+
+[[issues]]
+file = "test.php"
+code = "mismatched-array-index"
+message = "Invalid array key type: `string('nice')` is not a valid key for this array."
+count = 1
+
+[[issues]]
+file = "test.php"
+code = "mixed-method-access"
+message = "Attempting to access a method on a non-object type (`mixed`)."
+count = 1
+
+[[issues]]
+file = "test.php"
+code = "undefined-variable"
+message = "Undefined variable: `$nonExistant`."
+count = 1
